@@ -1,13 +1,14 @@
-№№ п/п	Пункт для проверки				Результат		
+№№ п/п	Пункт для проверки					        Результат			Комментарии	
 
-1	boolean result = Person.isTeenager(19)		Pass	
-2	boolean result = Person.isTeenager(13)		Pass	
-3	boolean result = Person.isTeenager(15)		Pass	
-4	boolean result = Person.isTeenager(-13)		Fail	
-5	boolean result = Person.isTeenager(-19)		Fail	
-6	boolean result = Person.isTeenager(20)		Fail	
-7	boolean result = Person.isTeenager(12)		Fail	
-8	boolean result = Person.isTeenager(-500)	Fail	
-9	boolean result = Person.isTeenager(2000)	Fail	
-10	boolean result = Person.isTeenager(18)		Pass	
-11	в предложенном коде в методе isTeenager() отсутствует начальное значение возраста "13".		
+boolean result = Person.isTeenager(19)	  	Pass			Возраст в диапазоне <= 19 и >= 13
+boolean result = Person.isTeenager(13)		  Pass			Возраст в диапазоне <= 19 и >= 13
+boolean result = Person.isTeenager(15)		  Pass			Возраст в диапазоне <= 19 и >= 13
+boolean result = Person.isTeenager(-13)		  Fail			Возраст не может быть отрицательным
+boolean result = Person.isTeenager(-19)		  Fail			Возраст не может быть отрицательным
+boolean result = Person.isTeenager(20)		  Fail			Возраст вне диапазона <= 19 и >= 13
+boolean result = Person.isTeenager(12)		  Fail			Возраст вне диапазона <= 19 и >= 13
+boolean result = Person.isTeenager(-500)	  Fail			Возраст не может быть отрицательным и таким большим
+boolean result = Person.isTeenager(2000)	  Fail			Возраст не может быть таким большим
+boolean result = Person.isTeenager(18)		  Pass			Возраст в диапазоне <= 19 и >= 13
+в предложенном коде в методе isTeenager() 
+отсутствует начальное значение возраста "13".		
