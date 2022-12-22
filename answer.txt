@@ -1,0 +1,13 @@
+№№ п/п	Пункт для проверки				Результат		
+
+1	boolean result = Person.isTeenager(19)		Pass	
+2	boolean result = Person.isTeenager(13)		Pass	
+3	boolean result = Person.isTeenager(15)		Pass	
+4	boolean result = Person.isTeenager(-13)		Fail	
+5	boolean result = Person.isTeenager(-19)		Fail	
+6	boolean result = Person.isTeenager(20)		Fail	
+7	boolean result = Person.isTeenager(12)		Fail	
+8	boolean result = Person.isTeenager(-500)	Fail	
+9	boolean result = Person.isTeenager(2000)	Fail	
+10	boolean result = Person.isTeenager(18)		Pass	
+11	в предложенном коде в методе isTeenager() отсутствует начальное значение возраста "13".		
